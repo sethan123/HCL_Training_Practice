@@ -3,18 +3,27 @@
 package Collections;
 
 import java.util.Arrays;
-import java.util.LinkedHashSet;
+import java.util.HashSet;
 
 
 public class UniqueNumber {
-	
-
-
 	    public static void main(String[] args) {
-	        Integer[] array = {1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8, 9, 9, 10, 10};	      
-	        LinkedHashSet<Integer> uniqueElements = new LinkedHashSet<>(Arrays.asList(array));	      
+	    	Integer[] array = {1, 2, 2, 3, 3, 4, 4, 5, 6, 7, 8, 8, 9, 9, 10, 10};          
+
+	    	 
+
+	        HashSet<Integer> uniqueElements = new HashSet<>(Arrays.asList(array));          
+
+	 
+
 	        System.out.println("Unique Elements:");
+
+	 
+
 	        for (int element : uniqueElements) {
+
+	 
+
 	            System.out.println(element);
 	        }
 	    }
